@@ -1,0 +1,33 @@
+section.academic{
+    background-color: #f4e9d7;
+}
+
+.academic__title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.academic__courses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.academic__courses__list{
+    padding: 10px 10px ;
+
+}
+
+.academic__courses__item__img{
+    width: 296;
+    height: 118;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
