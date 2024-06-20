@@ -13,31 +13,57 @@
 
 .title__profile {
     height: 150px;
-    margin: -20px 0 20px 0;
+    margin: 10px 0 30px 0;
+    align-items: center;
 }
 
 .title__bio{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     padding: 10px 0;
+    line-height: 22px;
+}
+
+.title__subsection{
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .title__network {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 0;
+    font-size: 13px;
+}
+
+@media (min-width: 768px){
+    section.title{
+        padding: 0 50px;
+    }
+    
+    .title__profile {
+        padding: 50px 0 20px 0 ;   
+    }
+    .title__network {
+        font-size: 16px;
+        width: 467px;
+        padding: 24px 0;
+    }
+
 }
 
 @media (min-width: 1024px){
     .title__div{
         flex-direction: row-reverse;
-        padding:5px 80px;
+        padding:5px 30px;
     }
 
     .title__profile {
         height: 400px;
-        width: 25%;
+        padding: 30px 0 0 0 ;
+        /* width: 25%; */
         
     }
 
@@ -46,6 +72,12 @@
         padding: 24px 0;
         line-height: 60px;
     }
+
+    .title__subsection{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
 
     .title__container:nth-child(2),
     .title__container:nth-child(3){
@@ -56,11 +88,10 @@
     }
     
     .title__network {
+        font-size: 20px;
         width: 467px;
         padding: 24px 0;
     }
-
-
 
 }
 
