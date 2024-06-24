@@ -52,6 +52,13 @@
     border-bottom: 6px solid #414040;
   }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: #414040;
+    padding-top: 20px;
+}
+
   .formcontacto__botao {
     display: flex;
     align-items: center;
